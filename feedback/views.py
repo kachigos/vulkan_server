@@ -21,7 +21,7 @@ class FeedbackView(generics.CreateAPIView):
             if key in ["username", "phone", 'email', 'country', 'subject', 'desc']:
                 message_text += f"{key}: {value}\n"
 
-        chat_id = "956591994"
+        chat_id = "547616061"
         bot_token = "5877156981:AAH5_hfQW5CG8JH2K04iphPEe5cEe78GQvU"
         url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
         payload = {"chat_id": chat_id, "text": message_text}
