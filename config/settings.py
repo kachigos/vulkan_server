@@ -168,6 +168,7 @@ CORS_ALLOW_ORIGINS = [
     'http://127.0.0.1:3001',
     'https://vulkanback.herokuapp.com',
     'https://vulkanplus.vercel.app',
+    'https://vulkanplus.com',
 ]
 
 CORS_ORIGIN_WHITELIST = [
@@ -177,6 +178,7 @@ CORS_ORIGIN_WHITELIST = [
     'http://127.0.0.1:3001',
     'https://vulkanback.herokuapp.com',
     'https://vulkanplus.vercel.app',
+    'https://vulkanplus.com',
 ]
 
 CORS_ALLOW_METHODS = [
